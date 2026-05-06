@@ -13,7 +13,7 @@ const families = [
     names: "Lukas und Raphaela",
     image: grabBertozzi,
     paragraphs: [
-      "Lukas ist gelernter Landwirt EFZ und arbeitet seit 2010 auf unserem Hof. Seit 2016 bewirtschaftet er den Betrieb zusammen mit seinem Vater in der Generationengemeinschaft.",
+      "Lukas ist gelernter Landwirt EFZ und arbeitet seit 2010 auf unserem Hof. Seit 2016 bewirtschaftete er den Betrieb zusammen mit seinem Vater in einer Generationengemeinschaft und übernahm den Betrieb im 2024.",
       "Raphaela ist gelernte Sek l-Lehrerin und kümmert sich neben ihrem Beruf um die Hof-Finanzen und die Direktvermarktung.",
     ],
   },
@@ -23,7 +23,7 @@ const families = [
     image: grabHubli,
     paragraphs: [
       "Doris ist die gute Seele unseres Hofes. Sie unterstützt uns bei jeglichen Arbeiten und hegt und pflegt unsere Gemüsegärten.",
-      "Martin ist ebenfalls gelernter Landwirt EFZ und leidenschaftlicher Braun-Swiss-Züchter, seit Mai 2021 hat er zudem zwei eingetragene Zuchtfamilien. 2003 baute er den Stall um und wechselte von der konventionellen auf die biologische Landwirtschaft.",
+      "Martin ist ebenfalls gelernter Landwirt EFZ und packt trotz Pensionierung immer noch tatkräftig mit an. 2003 baute er den Stall um und wechselte von der konventionellen auf die biologische Landwirtschaft mit einem Laufstall.",
     ],
   },
 ];

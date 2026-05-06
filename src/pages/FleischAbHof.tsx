@@ -27,10 +27,10 @@ const FleischAbHof = () => {
               <Calendar className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
               <div>
                 <p className="font-heading text-lg font-light text-foreground">
-                  Nächster Bio-Kalbfleisch-Verkauf (10 mon. Kalb) am 14. November 2025 von 18:00 bis 20:00
+                  Hofverkäufe jeweils im April/Mai und Oktober/November
                 </p>
                 <p className="font-body text-sm text-muted-foreground mt-1">
-                  mit Kaffee und Austausch · Bestellungen nehmen wir gerne ab sofort entgegen
+                  Nächster Hofverkauf im Herbst/Winter von 18:00 bis 20:00 mit Kaffee und Austausch · Bestellungen nehmen wir gerne ab sofort entgegen
                 </p>
               </div>
             </div>

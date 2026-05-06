@@ -5,59 +5,36 @@ import { PageHero } from "@/components/PageHero";
 import tiereHero from "@/assets/tiere.webp";
 import tiereHund from "@/assets/tiere/tiere-hund.avif";
 import tiereKuhe from "@/assets/tiere/tiere-kuhe.avif";
-import tiereDexter from "@/assets/tiere/tiere-dexter.webp";
-import tiereSchaf from "@/assets/tiere/toiere-schaf.avif";
+import tiereZiegen from "@/assets/tiere/toiere-schaf.avif";
 import tiereHuhner from "@/assets/tiere/tiere-huhner.webp";
 import tiereKatzen from "@/assets/tiere/tiere-katzen.webp";
 import tiereEsel from "@/assets/tiere/tiere-esel.webp";
 
 const animalGroups = [
   {
-    title: "Unser Hund",
-    subtitle: "Mali, Australischer Kelpie",
+    title: "Unsere Kühe und Kälber",
+    subtitle: "Bio-Haltung, verschiedene Rassen",
     description: [
-      "Mali ist unser Australischer Kelpie und unterstützt uns tatkräftig bei der Arbeit.",
-      "Sie ist im März 2019 geboren und ein junger Wirbelwind.",
-    ],
-    image: tiereHund,
-  },
-  {
-    title: "Braun-Swiss Kühe und Kälber",
-    subtitle: "Preisgekrönte Zuchtfamilien",
-    description: [
-      "In unserem Stall befinden sich Kühe und Kälber von zwei preisgekrönten Braun-Swiss-Zuchtfamilien.",
-      "Bei der Aufzucht ist uns nicht nur die Abstammung wichtig, sondern auch, dass all unsere Tiere genügend Platz und die Möglichkeit auf Freigang haben.",
+      "Auf unserem Hof leben Mutterkühe und Kälber verschiedener Rassen in einer verantwortungsvollen Bio-Haltung.",
+      "Besonders wichtig sind uns eine sorgfältige Aufzucht, genügend Platz im Stall sowie regelmässiger Freigang für alle Tiere. Die Kälber bleiben dabei bis zum Weiterverkauf oder zur Schlachtung bei ihren Müttern.",
     ],
     image: tiereKuhe,
   },
   {
-    title: "Irische Dexter",
-    subtitle: "Seit 1995 in Mutterkuh-Haltung",
+    title: "Unsere Ziegen",
+    subtitle: "Ziegenfamilie seit 2025",
     description: [
-      "Als dritter Bauernhof in der Schweiz haben wir 1995 mit der Haltung und Züchtung irischer Dexter begonnen. Auf unserem Hof leben sie in der Mutterkuh-Haltung, das bedeutet, dass die Rinder bis zum Weiterverkauf oder zur Schlachtung bei der Mutter bleiben.",
-      "Die irischen Dexter sind leicht an ihrer Grösse zu erkennen. Sie sind kleiner als herkömmliches Rindvieh. Ein neugeborenes Kalb ist beispielsweise so gross wie unser ausgewachsener Kelpie.",
+      "Im Frühjahr 2025 zog eine ganze Ziegenfamilie auf dem Bauernhof ein. Die Schweizer Strahlen-Mutter lebt mit ihren Jungen (je Zwillinge geb. 2024 und 2025) meist im steilen Weid- und Waldland.",
+      "Charakteristisch für die Jungtiere ist die aussergewöhnliche Farbe. Da die Mutter von einem Bauernziegenbock gedeckt wurde, hat der Nachwuchs im Gegensatz zur Mutter ein hellbraunes, teils weiss geflecktes Fell.",
     ],
-    image: tiereDexter,
-    link: {
-      label: "Mehr über die irischen Dexter",
-      href: "https://swissdexters.ch/",
-    },
-  },
-  {
-    title: "Unsere Schafe",
-    subtitle: "Heidschnucken für Landschaftspflege",
-    description: [
-      "Fast zeitgleich mit unserer Hündin sind auch fünf Heidschnucken-Schafe auf dem Hof eingezogen.",
-      "Frida, Helga, Olga, Rosa und Wilma helfen uns nicht nur bei der Landschaftspflege, sondern versorgen uns auch mit Wolle für wasserdichte Filzhüte oder wärmende Filzhausschuhe.",
-    ],
-    image: tiereSchaf,
+    image: tiereZiegen,
   },
   {
     title: "Unsere Hühner",
     subtitle: "Schweizer & Appenzeller Freilandhühner",
     description: [
       "2020 ging der Hühner-Wunsch der Bauernfrauen in Erfüllung und zwei Schweizer und zwei Appenzeller Hühner zogen ihr neues Zuhause.",
-      "Sie sind wortwörtlich Bio-Freiland-Hühner und dürfen sich auf dem ganzen Hof frei bewegen. Zur Übernachtung steht ihnen ein fahrbarer Hühnerstall zur Verfügung.",
+      "Sie sind wortwörtlich Bio-Freiland-Hühner und dürfen sich auf dem ganzen Hof frei bewegen. Zur Übernachtung steht ihnen ein fahrbarer Hühnerstall zur Verfügung, in welchem sie auch noch ab und an ein Ei legen.",
     ],
     image: tiereHuhner,
   },
@@ -65,19 +42,28 @@ const animalGroups = [
     title: "Unsere Katzen",
     subtitle: "Verschmuste Jägerinnen",
     description: [
-      "Unsere vier verschmusten Jäger sind liebevolle und zutrauliche Hofkatzen, welche nie Nein zu Streicheleinheiten sagen würden.",
-      "Mind. einmal im Jahr haben wir von unseren beiden Müttern (Mamma und June) Babykatzen, welche auf der Suche nach einem neuen Zuhause sind.",
+      "Unsere verschmusten Jäger sind liebevolle und zutrauliche Hofkatzen, welche nie Nein zu Streicheleinheiten sagen würden.",
+      "Momentan haben wir keine Jungen und fast alle Katzen kastriert.",
     ],
     image: tiereKatzen,
   },
   {
-    title: "Unser Esel und seine Gattin",
+    title: "Unsere Esel",
     subtitle: "Charles & Flora",
     description: [
-      "Unser Esel Charles und seine Gattin Flora leben nun schon seit fast acht Jahren bei uns.",
+      "Unser Esel Charles und seine Gattin Flora leben nun schon seit über 10 Jahren bei uns.",
       "Mit einem Stück Brot oder einer Kartoffel gewinnt man sofort ihr Herz und kann sie streicheln und striegeln.",
     ],
     image: tiereEsel,
+  },
+  {
+    title: "Unser Hund",
+    subtitle: "Mali, Australischer Kelpie",
+    description: [
+      "Mali ist unser Australischer Kelpie und unterstützt uns tatkräftig bei der Arbeit.",
+      "Sie ist im März 2019 geboren und ein richtiger Wirbelwind.",
+    ],
+    image: tiereHund,
   },
 ];
 

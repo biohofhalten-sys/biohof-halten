@@ -44,21 +44,21 @@ export const Features = () => {
     {
       title: "Fleisch ab Hof",
       description:
-        "Frisch ab Hof verkaufen wir verschiedene Mischpakete mit feinstem Bio-Kalb- oder Rindfleisch abgepackt und vakuumiert. Auf Vorbestellung auch halbe oder ganze Tiere.",
+        "Frisch ab Hof verkaufen wir verschiedene Mischpakete mit feinstem Bio-Kalb- oder Jungrind-Fleisch abgepackt und vakuumiert. Zudem kann auf Vorbestellung auch ein halbes oder ganzes Tier gekauft werden.",
       image: steakImage,
       href: "/fleisch-ab-hof",
     },
     {
       title: "Unsere Tiere",
       description:
-        "Seit 2003 werden all unsere Tiere rein biologisch gehalten und ernährt. Seit 2025 leben sie als Mutterkuh-Kühe. Dazu Schafe, Hühner, Katzen, Esel und ein Hund.",
+        "Seit 2003 werden all unsere Tiere rein biologisch gehalten und ernährt. Seit 2025 leben sie als Mutterkuh-Kühe. Auf unserem Bergbauernhof leben jedoch nicht nur diese, sondern auch Hühner, Ziegen, Katzen, Esel und ein Hund.",
       image: tiereImage,
       href: "/unsere-tiere",
     },
     {
       title: "Über Uns",
       description:
-        "Unser Biohof wird seit 2024 vom Jungbauern Lukas Grab geführt und zusammen mit seinem Vater Martin bewirtschaftet. Tradition trifft auf moderne Bio-Landwirtschaft.",
+        "Unser Biohof wird seit 2024 vom Jungbauern Lukas (Jun.) Grab geführt und zusammen mit seinem Vater Martin Grab (Sen.) bewirtschaftet.",
       image: unsImage,
       href: "/ueber-uns",
     },

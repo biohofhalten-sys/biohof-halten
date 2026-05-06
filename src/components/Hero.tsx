@@ -33,7 +33,7 @@ export const Hero = () => {
 
           {/* Subtitle */}
           <p className="font-body text-lg font-light text-cream/80 max-w-xl mb-10 animate-fade-in-delay-1">
-            Der Biohof auf knapp 1'000 m.ü.M. in Biberegg von der Familie Grab geführt.
+            Der Biohof auf knapp 1'000 m.ü.M. in Biberegg (Rothenthurm SZ) wird von der Familie Grab geführt und umfasst ca. 30 ha Land und 50 Stück Vieh. Mit viel Herz und Liebe ziehen wir nicht nur unsere Mutterkühe und -kälber auf, sondern bewirtschaften auch unseren Wald und unser Berg- sowie Streuland.
           </p>
 
           {/* CTAs */}
