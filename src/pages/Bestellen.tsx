@@ -17,7 +17,7 @@ import bestellformular from "@/assets/docs/Bestellformular.pdf";
 import { FileText } from "lucide-react";
 
 const zeitraumOptions = [
-  { value: "Frühling (März/April)", label: "Frühling (März/April)" },
+  { value: "Frühling (April/Mai)", label: "Frühling (April/Mai)" },
   { value: "Herbst (Oktober/November)", label: "Herbst (Oktober/November)" },
 ];
 
@@ -67,7 +67,7 @@ const ChoiceCardGroup = ({ name, options, selected, onChange }: ChoiceCardGroupP
 
 const Bestellen = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [zeitraum, setZeitraum] = useState("Frühling (März/April)");
+  const [zeitraum, setZeitraum] = useState("Frühling (April/Mai)");
   const [vakuum, setVakuum] = useState("Normal (3-4 Personen)");
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
