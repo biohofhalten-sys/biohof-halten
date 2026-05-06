@@ -77,14 +77,14 @@ const Bestellen = () => {
     const formData = new FormData(form);
 
     const GOOGLE_FORM_URL =
-      "https://docs.google.com/forms/d/e/1FAIpQLSfO5eieRlc6HjeSsp7U1qlw548HwUSl3GYnMHLFgwpIate1Pg/formResponse";
+      "https://docs.google.com/forms/d/e/1FAIpQLSdK1za5_V72ZhOZYiQaDGFZcqbHcU8TKzSjdKzRD3Lm6UbsLA/formResponse";
 
     const mappedData = new URLSearchParams();
-    mappedData.append("entry.569909213", formData.get("contact") as string || "");
-    mappedData.append("entry.1266230171", zeitraum);
-    mappedData.append("entry.1470760738", formData.get("paket") as string || "");
-    mappedData.append("entry.410461177", vakuum);
-    mappedData.append("entry.559525787", formData.get("remark") as string || "");
+    mappedData.append("entry.2122635331", formData.get("contact") as string || "");
+    mappedData.append("entry.1727468978", zeitraum);
+    mappedData.append("entry.435749539", formData.get("paket") as string || "");
+    mappedData.append("entry.1954970791", vakuum);
+    mappedData.append("entry.1587594337", formData.get("remark") as string || "");
 
     try {
       await fetch(GOOGLE_FORM_URL, {
